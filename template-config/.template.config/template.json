@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "UmbHost",
+  "classifications": ["Web", "Umbraco", "GreenStack"],
+  "identity": "UmbHost.GreenStack.Umbraco.CleanStarterKit",
+  "name": "Umbraco with Clean Starter Kit on GreenStack",
+  "shortName": "greenstack-umbraco-cleanstarterkit",
+  "description": "Umbraco 17 with Clean Starter Kit preconfigured for GreenStack hosting with Docker support",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "GreenStack.Umbraco.CleanStarterKit",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".github/**",
+            ".git/**",
+            "LICENSE",
+            "README.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "guids": [
+    "94d6a324-370b-4d8d-8190-c387a7668a29"
+  ],
+  "postActions": [
+    {
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "description": "Restore NuGet packages",
+      "continueOnError": true,
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ]
+    }
+  ]
+}
