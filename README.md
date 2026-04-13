@@ -14,7 +14,7 @@ dotnet new install UmbHost.GreenStack.Umbraco.CleanStarterKit
 dotnet new greenstack-umbraco-cleanstarterkit -n MyProject
 ```
 
-This creates a new Umbraco 17 project with Clean Starter Kit and:
+This creates a new Umbraco 17 project with [Clean Starter Kit](https://marketplace.umbraco.com/package/clean) and:
 
 - Forwarded headers middleware for Traefik proxy
 - HTTPS runtime validator removed (SSL terminated by GreenStack)
