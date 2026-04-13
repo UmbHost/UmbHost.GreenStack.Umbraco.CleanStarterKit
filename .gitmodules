@@ -1,0 +1,3 @@
+[submodule "content/GreenStack.Umbraco.CleanStarterKit"]
+	path = content/GreenStack.Umbraco.CleanStarterKit
+	url = https://github.com/UmbHost/GreenStack.Umbraco.CleanStarterKit.git
