@@ -5,12 +5,12 @@
   "identity": "UmbHost.GreenStack.Umbraco.CleanStarterKit",
   "name": "Umbraco with Clean Starter Kit on GreenStack",
   "shortName": "greenstack-umbraco-cleanstarterkit",
-  "description": "Umbraco 17 with Clean Starter Kit preconfigured for GreenStack hosting with Docker support",
+  "description": "Umbraco 13 LTS with Clean Starter Kit preconfigured for GreenStack hosting with Docker support",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "GreenStack.Umbraco.CleanStarterKit",
+  "sourceName": "GreenStack.Umbraco",
   "preferNameDirectory": true,
   "sources": [
     {
